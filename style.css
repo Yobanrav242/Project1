@@ -964,3 +964,159 @@ footer h1{
     }
 }
 
+@media screen and (max-width:480px) {
+    header {
+        position: fixed;
+        height: 50px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header .box-icon {
+        display: none;
+    }
+
+    header h2 {
+        font-size: 25px;
+    }
+
+    .blackhole video {
+        width: 80%;
+        margin-top: -12%;
+        margin-left: 10%;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .autoblur {
+        animation: none;
+    }
+
+    .hero-info {
+        bottom: 5%;
+        left:8%;
+    }
+
+    .scroll {
+        bottom: 2%;
+        margin-left: 40px;
+    }
+
+    .hero-info-title {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .hero-info h1 {
+        font-size: 30px;
+        max-width:350px;
+        line-height: 40px;
+        margin-top:15px;
+        margin-bottom: 15px;
+    }
+    
+    .hero-info p{
+        font-size: 18px;
+        max-width: 350px;
+        margin-bottom: 20px; 
+    }
+
+    .hero-info button{
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    .hero-vid {
+        top: 4%;
+        right: 17%;
+    }
+
+    .hero-vid video {
+        height: 400px;
+    }
+
+    .scroll{
+        display: none;
+    }
+
+    .info-sec {
+        margin-left: -20px;
+    }
+
+    .card video {
+        width: 100%;
+    }
+
+    .info-card .card h1 {
+        bottom: 35%;
+    }
+
+    .project {
+        margin-bottom: 600px;
+    }
+
+    .pro-card {
+        flex-direction: column;
+        margin-left: 20%;
+        gap: 30px;
+    }
+
+    .pro-vidbox {
+        width: 300px;
+        min-width: 200px;
+    }
+
+    .pro-info {
+        width: 78%;
+    }
+
+    .pro-info h1 {
+        text-wrap: nowrap;
+    }
+
+    .pro-info p {
+        max-width: 280px;
+    }
+
+    .designer {
+        top: 25%;
+        left: 13%;
+    }
+
+    .coder {
+        top: 50%;
+        left: 18%;
+    }
+
+    .skill h1 {
+        margin-bottom: 0;
+        margin-top: 60px;
+    }
+
+    .slider img {
+        width: 60%;
+    }
+
+    .contact {
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+
+    .contact .sec-title {
+        top: -40px;
+        left: 25%;
+    }
+
+    footer h1 {
+        font-size: 17px;
+    }
+
+    .menu-icon {
+        display: inline;
+    }
+}
